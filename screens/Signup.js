@@ -1,7 +1,7 @@
 import React from "react"
 import styles from "../styles"
 import { View, Text, TextInput, Button, Image, TouchableOpacity } from "react-native"
-function SignUp (){
+function SignUp ({navigation,route}){
 return <>
    <View style={styles.container }>
   

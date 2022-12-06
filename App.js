@@ -1,12 +1,10 @@
 import React from "react";
-import Home from "./screens/Home";
-import Login from "./screens/Login";
-import SignUp from "./screens/Signup";
+import AppNavigation from "./Appnavigation";
+
 function App(){
 return <>
-<Home/>
-{/* <Login/> */}
-{/* <SignUp/> */}
+
+<AppNavigation/>
 </>
 }
 

@@ -3,7 +3,7 @@ const styles = StyleSheet.create({
     container: {
       padding: 10,
       height: "100%",
-      backgroundColor: "orange",
+      backgroundColor: "#5D4E6D",
   
     },
     heading:{
@@ -43,10 +43,10 @@ const styles = StyleSheet.create({
      borderWidth: 5 ,
      borderRadius: 12 ,
      padding: 10  , 
-     color:"grey" ,
+     color:"#512F6F" ,
      margin: 10 ,
-     backgroundColor:'lightblue',
-     fontSize:17
+     backgroundColor:'#A379C9',
+     fontSize:19
   
     },
     Input: {
@@ -60,14 +60,14 @@ const styles = StyleSheet.create({
      fontSize:17
        },
     main:{
-        backgroundColor:"green"
+        backgroundColor:"#5D4E6D50"
         },
         head:{
-          color:"yellow" ,
+          color:"#ACDDE7" ,
           fontSize:25 ,
            textAlign:"center",
            margin: 20,
-           backgroundColor:'blue' ,
+           backgroundColor:'#512F6F' ,
         borderColor:'black',
         borderWidth: 1 ,
            },

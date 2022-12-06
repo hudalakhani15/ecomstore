@@ -1,7 +1,9 @@
 import React from "react"
 import styles from "../styles"
 import { View, Text, TextInput, Button, Image, TouchableOpacity } from "react-native"
-function Login (){
+import Icon from 'react-native-vector-icons/dist/MaterialIcons';
+function Login ({navigation}){
+  
 return <>
    <View style={styles.container }>
   
@@ -9,8 +11,8 @@ return <>
     <Image style={{ width: 300, height: 300 }} source={{ uri: 'https://advardo.com/images/user/login.png' }} />
     </View>
      <Text style={styles.head}>Welcome to your Account</Text>
-    <TextInput  placeholderTextColor={'grey'} style={styles.inp} placeholder="User Name" />
-    <TextInput  placeholderTextColor={'grey'}  style={styles.inp} placeholder="Password" />
+    <TextInput  placeholderTextColor={'#ACDDE7'} style={styles.inp} placeholder="User Name" />
+    <TextInput  placeholderTextColor={'#ACDDE7'}  style={styles.inp} placeholder="Password" />
     <View style={{ flexDirection:"row" , justifyContent:"center"}}>
     <TouchableOpacity style={styles.button}>
     <Text style={{color:'black',
